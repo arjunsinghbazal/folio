@@ -1,7 +1,7 @@
 function toggleSkillsHeading() {
   var skillsHeading = document.getElementById('skills-heading');
   var currentText = skillsHeading.innerText;
-  var newText = (currentText === 'Web Developer') ? 'Programmer' : 'Web Developer';
+  var newText = (currentText === 'Frontend Developer') ? 'Programmer' : 'Frontend Developer';
   skillsHeading.innerText = newText;
 }
 
